@@ -1,1 +1,4 @@
-GET http://localhost:8080/content/all
+GET http://localhost:8080/content/packages
+
+###
+GET http://localhost:8080/content/cities

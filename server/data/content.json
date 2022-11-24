@@ -1,5 +1,5 @@
 {
-  "data": [
+  "packages": [
     {
       "id": "p1",
       "title": "100 מגה גלישה",
@@ -21,8 +21,18 @@
       "title": "1 ג'יגה גלישה",
       "subtitle": "חבילת הפרימיום שלנו! כי אין יותר מהיר מזה",
       "price": 209.9,
-      "durationInMonths": [36, 24, 12],
+      "durationInMonths": [36, 24],
       "sale": false
     }
+  ],
+  "cities": [
+    { "value": "telAviv", "city": "תל אביב" },
+    { "value": "ramatGan", "city": "רמת גן" },
+    { "value": "haifa", "city": "חיפה" },
+    { "value": "beerSheva", "city": "באר שבע" },
+    { "value": "rishon", "city": "ראשון לציון" },
+    { "value": "eilat", "city": "אילת" },
+    { "value": "hadera", "city": "חדרה" },
+    { "value": "akko", "city": "עכו" }
   ]
 }
