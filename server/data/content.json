@@ -26,13 +26,13 @@
     }
   ],
   "cities": [
-    { "value": "telAviv", "city": "תל אביב" },
-    { "value": "ramatGan", "city": "רמת גן" },
-    { "value": "haifa", "city": "חיפה" },
-    { "value": "beerSheva", "city": "באר שבע" },
-    { "value": "rishon", "city": "ראשון לציון" },
-    { "value": "eilat", "city": "אילת" },
-    { "value": "hadera", "city": "חדרה" },
-    { "value": "akko", "city": "עכו" }
+    { "id": "c1", "value": "telAviv", "city": "תל אביב" },
+    { "id": "c2", "value": "ramatGan", "city": "רמת גן" },
+    { "id": "c3", "value": "haifa", "city": "חיפה" },
+    { "id": "c4", "value": "beerSheva", "city": "באר שבע" },
+    { "id": "c5", "value": "rishon", "city": "ראשון לציון" },
+    { "id": "c6", "value": "eilat", "city": "אילת" },
+    { "id": "c7", "value": "hadera", "city": "חדרה" },
+    { "id": "c8", "value": "akko", "city": "עכו" }
   ]
 }

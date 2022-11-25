@@ -8,10 +8,10 @@ const router: Router = Router()
 router.get('/packages', async (req: Request, res: Response): Promise<void> => {
   try {
     asyncFunc(() => {
-      res.json({ status: 200, data: packages })
+      res.status(200).json({ data: packages })
     })
   } catch (err) {
-    res.json({ status: 500, message: 'Data not available' })
+    res.status(500).json({ message: 'Data not available' })
   }
 })
 
@@ -19,10 +19,10 @@ router.get('/packages', async (req: Request, res: Response): Promise<void> => {
 router.get('/cities', async (req: Request, res: Response): Promise<void> => {
   try {
     asyncFunc(() => {
-      res.json({ status: 200, data: cities })
+      res.status(200).json({ data: cities })
     })
   } catch (err) {
-    res.json({ status: 500, message: 'No cities available' })
+    res.status(500).json({ message: 'No cities available' })
   }
 })
 

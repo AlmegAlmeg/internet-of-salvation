@@ -1,4 +1,15 @@
+### Content 
+
 GET http://localhost:8080/content/packages
 
 ###
 GET http://localhost:8080/content/cities
+
+
+### User
+POST http://localhost:8080/user/validatePhone
+Content-Type: application/json
+
+{
+  "phoneNumber": "0501234567"
+}

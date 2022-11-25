@@ -1,6 +1,7 @@
 import express, { Application, json } from 'express'
 import cors from 'cors'
 import { router as contentRouter } from './routes/content'
+import { router as userRouter } from './routes/user'
 
 const app: Application = express()
 
@@ -14,3 +15,4 @@ app.listen(PORT, () => {
 })
 
 app.use('/content', contentRouter)
+app.use('/user', userRouter)
