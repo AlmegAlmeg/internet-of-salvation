@@ -1,7 +1,7 @@
-export default interface Product {
+export default interface Package {
   title: string;
   subtitle: string;
   price: number;
-  durationInMonths: Array<MonthsVariation>;
+  durationInMonths: Array<number>;
   sale: boolean | undefined;
 }
